@@ -1,14 +1,83 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 </head>
 <body>
 
-<h1> Alexandra Stone </h1>
 
-<img src="me.jpg" width="180" height="130">
 
+
+<div class="col-lg-4"></div>
+<div class="col-lg-4 Center">
+	<h1> Alexandra Stone </h1>
+	<img class="img-responsive" style="padding:5px;" src="me.jpg" width="180" height="130">
+</div>
+<div class="col-lg-4"></div>
+
+
+
+<div class="col-lg-12">
+	<nav style="padding:5px;" class="navbar navbar-inverse" role="navigation">
+			<button type="button" id="mybtn1" class="btn btn-default navbar-btn">About Me</button>
+			<button type="button" id="mybtn2" class="btn btn-default navbar-btn">What I'm doing</button>
+			<button type="button" id="mybtn3" class="btn btn-default navbar-btn">Helpful Links</button>
+			<button type="button" id="mybtn4" class="btn btn-default navbar-btn">Contact Info</button>
+		
+	</nav>
+	hi
+</div>
+
+
+
+
+</body>
+<style>
+.Center{
+text-align:center;
+}
+.Center img{
+margin-right:auto;
+margin-left:auto;
+border-radius:5px;
+border-style:solid;
+border-width:1px;
+background-color:#80eeff;
+}
+
+button
+{
+padding:5px;
+width:24.666%;
+
+}
+
+
+
+</style>
+
+
+<script>
+
+$(document).ready(function() {
+	$('#mybtn1').click(function(){
+		
+	});
+
+
+
+});
+</script>
 
 </html>
+
+
+<!-- 
+
+$('#name')
+
+#name = an id attribute
+.name = a class attribute
+-->
